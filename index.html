@@ -55,13 +55,13 @@
                 <p class="mb-4 text-center inter font-normal lg:text-[18px] text-[12px] text-[#fff]">Yes, you can run unit tests and view the results 
                     directly within the app.<br>
                     The integrated testing features allow for a streamlined</p>
-                <a href="https://www.senjutitravels.com/" class="btn text-[20px] h-[60px] text-center font-bold border-0 bg-[#13d100] text-[black]">Buy Tickets</a>
+                <a href="#select-your-seats" class="btn text-[20px] h-[60px] text-center font-bold border-0 bg-[#13d100] text-[black]">Buy Tickets</a>
               </div>
             </div>
         </div>
         <!-- Banner section end -->
     </header>
-    <main>
+    <main class="">
       <!-- Start best offer section -->       
      <section class="main-section">
       <h1 class="text-center text-[#030712] mt-[110px] text-[40px] font-bold">Best offers for you</h1>
@@ -100,26 +100,25 @@
       </div>
      </section>
      <!-- End best offer section -->
-
-     <section class="functional-section bg-[#f7f8f7]">
+     <section class="functional-section bg-[#f7f8f7]" id="select-your-seats">
       <!-- departing section -->
       <div class="mt-[100px] text-center">
         <h1 class="my-3 text-[40px] text-[#030712] font-bold">Sejuti Paribahan</h1>
         <p class="my-5 inter font-normal lg:text-[18px] text-[#03071299] mx-auto lg:max-w-[690px]">Yes, you can run unit tests and view the results directly within the app. 
           The integrated testing features allow for a streamlined .</p>
       </div>
-      <div class="sejuti-paribahan bg-[#fff] h-[418px] rounded-[24px] flex items-center">
+      <div class="sejuti-paribahan bg-[#fff] lg:h-[418px] rounded-[24px] lg:flex items-center">
           <!-- left part -->
-          <div class="lg:max-w-[800px] my-[30px] mx-[30px]">
+          <div class="lg:max-w-[800px] my-[30px] mx-[30px] pt-5">
             <!-- bus logo -->
-              <div class="flex justify-between gap-5 ">
-                <div class="flex items-center gap-2 justify-between">
+              <div class="lg:flex space-y-[25px] lg:space-y-0 justify-between gap-5 ">
+                <div class="flex items-center gap-2 lg:justify-between">
                   <div>
                     <img src="/images/bus-logo.png" alt="">
                   </div>
                   <div>
-                   <h1 class="text-[32px] font-bold text-[#030712]">Sejuti Paribahan</h1>
-                   <p class="text-[17px] font-normal text-[#03071299] inter">Coach-009-WEB ! AC_Business</p>
+                   <h1 class="lg:text-[32px] text-2xl font-bold text-[#030712]">Sejuti Paribahan</h1>
+                   <p class="lg:text-[17px] font-normal text-[#03071299] inter">Coach-009-WEB ! AC_Business</p>
                   </div>
                 </div>
                 <div>
@@ -138,30 +137,85 @@
                   <h1 class="text-[#03071299] text-[18px]">Departure Time</h1>
                   <h1 class="text-[#030712]">9:00 PM</h1>
                 </div> 
-                <div class="flex justify-between py-[15px] gap-3 inter font-medium text-[#030712cc]">
-                <button class="btn btn-active text-[16px]">Boarding Point - Laxmipur</button>
-                <button class="btn btn-active text-[16px]">Dropping Point - Bogura</button>
-                <button class="btn btn-active text-[16px]">Est. Time - 11 Hour</button>
+                <div class="lg:flex space-y-3 lg:space-y-0 justify-between py-[15px] gap-3 inter font-medium text-[#030712cc]">
+                <button class="btn btn-active w-full lg:w-[250px] text-[16px]">Boarding Point - Laxmipur</button>
+                <button class="btn btn-active w-full lg:w-[230px] text-[16px]">Dropping Point - Bogura</button>
+                <button class="btn btn-active w-full lg:w-[230px] text-[16px]">Est. Time - 11 Hour</button>
                 </div> 
               </div>
              </div>
           </div>
           <!-- middle depart img -->
-          <div>
+          <div class="hidden lg:block ">
           <img src="/images/info-devider.png" alt="">
           </div>
           <!-- seat price -->
-          <div class="max-w[135px] mx-auto grid grid-cols-1 text-center">
-          <img src="/images/fare.png" alt="" style="position:relative; left: 30%; top: 5%;">
+          <div class="ticket-price grid grid-cols-1 ">
+          <img src="/images/fare.png" class="px-[30px]" >
           <h1 class="font-bold text-[32px] text-[#030712]">550 Taka</h1>
           <p class="font-semibold text-[24px] text-[#03071299]">Per Seat</p>
           </div>
       </div>
       <!-- seat plan -->
      </section>
+     <!-- <section class="modal-part bg-[#F7F8F8]">
+      <div class="max-w-[718px] mx-auto bg-white rounded-[16px]">
+      <label for="my_modal_6" class="btn">open modal</label>
+      <input type="checkbox" id="my_modal_6" class="modal-toggle" />
+      <div class="modal" role="dialog">
+      <div class="modal-box">
+       <h3 class="font-bold text-lg">Hello!</h3>
+       <p class="py-4">This modal works with a hidden checkbox!</p>
+       <div class="modal-action">
+      <label for="my_modal_6" class="btn">Close!</label>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section> -->
     </main>
-    <footer>
+    <!-- end main section -->
+    <footer class=" py-8 mt-[100px] bg-[#030712] lg:text-start text-center">
+       <div class="sejuti-paribahan lg:flex justify-center  lg:justify-between items-center lg:gap-5 border_f">
+          <div>
+            <h6 class="text-[36px] font-extrabold py-2 text-[#ffff]">S-Ticket</h6>  
+            <p class="text-[18px] text-[#ffffff97] font-normal py-3 inter">S-Ticket is a digital platform to make your  <br>
+             daily commuting better.</p>
+          </div>
+          <!-- PlayStore App -->
+          <div>
+            <h6 class="font-semibold text-[20px] text-[#ffffff] py-3">Download our app</h6>
+            <a href="#" target="_parent">
+              <div class="flex mx-auto max-w-[200px] inter gap-3 text-[20px] bg-[#000000]  text-[#ffffff] rounded-[12px] border_p items-center">
+                <div>
+                 <img src="/images/playstore.png" alt="">
+                </div>
+                <div>
+                  <p class="font-normal ">GET IT ON</p>
+                  <h1 class="font-extrabold">Google Play</h1>
+                </div>
+             </div>
+            </a>
+          </div>
+       </div>
+       <div class="sejuti-paribahan my-[25px]">
+         <!-- copyright section -->
+          <div class="lg:flex justify-between items-center gap-5 space-y-4">
+            <div class="hidden lg:block">
+              <p class="text-[#FFFFFFB3] font-normal inter">&copy;all rights reserved, S-Ticket services limited.2024</p>
+            </div>
+            <div class="lg:flex grid grid-cols-1 gap-5 inter font-medium text-[#ffffff]">
+              <a href="#">Terms & condition</a>
+              <a href="#">Return & refund policy</a>
+              <a href="#">Privacy policy</a>
+            </div>
+            <div class="block lg:hidden">
+              <p class="text-[#FFFFFFB3] font-normal inter">&copy;all rights reserved, S-Ticket services limited.2024</p>
+            </div>
+          </div>
+       </div>
     </footer>
+    <!-- end footer section -->
     <script src="/script.js"></script>
 </body>
 </html>
