@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +20,7 @@
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-53 font-medium text-[18px]">
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-53 font-medium text-[18px] text-[#030712b3]">
                   <li><a>Home</a></li>
                   <li><a>About</a></li>
                   <li><a>Destination</a></li>
@@ -30,7 +30,7 @@
               <a class="text-[#030712] text-[36px] font-extrabold ">S-Ticket</a>
             </div>
             <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1 font-medium text-[18px]">
+              <ul class="menu menu-horizontal px-1 font-medium text-[18px] text-[#030712b3]">
                   <li><a>Home</a></li>
                   <li><a>About</a></li>
                   <li><a>Destination</a></li>
@@ -39,8 +39,8 @@
             </div>
             <div class="navbar-end py-[15px] px-[26px]">
              <div class="flex">
-                <a class="btn bus bg-[#1dd1001a] text-[#13d100] text-[20px] w-[125px] h-[50px]">Bus
-                    <img src="/images/bus-icon.png" alt="" class="">
+                <a class="btn border-[#1dd10066] bg-[#1dd1001a] text-[#1dd100] text-[20px] w-[125px] h-[50px]">Bus
+                  <img src="/images/bus-icon.png" alt="" class="">
                 </a>
              </div>
             </div>
@@ -51,7 +51,7 @@
           <div class="hero-overlay bg-opacity-50 rounded-[32px]"></div>
             <div class="hero-content text-center text-neutral-content">
               <div>
-                <h1 class="mb-4 lg:text-[64px] text-[36px] font-extrabold ">End-to-End Travel with <br> <span class="text-[#1dd100]">Sejuti Paribahan</span></h1>
+                <h1 class="mb-4 lg:text-[64px] text-[36px] font-extrabold ">End-to-End Travel with <br> <span class="text-[#1dd100]">Jannat Paribahan</span></h1>
                 <p class="mb-4 text-center inter font-normal lg:text-[18px] text-[12px] text-[#fff]">Yes, you can run unit tests and view the results 
                     directly within the app.<br>
                     The integrated testing features allow for a streamlined</p>
@@ -59,12 +59,106 @@
               </div>
             </div>
         </div>
-
         <!-- Banner section end -->
     </header>
     <main>
+      <!-- Start best offer section -->       
+     <section class="main-section">
+      <h1 class="text-center text-[#030712] mt-[110px] text-[40px] font-bold">Best offers for you</h1>
+      <div class="lg:flex grid-cols-1 gap-5 lg:space-y-0 space-y-2 my-[50px]" >
+        <div class="flex bg-[#ffbf0f] items-center justify-evenly rounded-[24px] lg:w-[560px] h-[220px]">
+          <div class="inter">
+            <h1 class="font-[900] text-[40px] text-[#030712cc]">15% OFF</h1>
+            <h2 class="font-semibold text-[20px] text-[#030712cc]">on your next purchase</h2>
+            <p class="font-medium text-[18px] text-[#03071280]">use by January 2024</p>
+          </div>
+          <div>
+            <img src="/images/cupon-devider.png" alt="">
+          </div>
+          <div>
+            <h1 class="font-bold text-[32px] text-[#030712]">NEW15</h1>
+            <p class="font-medium text-[20px] text-[#03071266]">Coupon Code</p>
+          </div>
+        </div>
+        <div class="flex bg-[#f78c9c] items-center justify-evenly rounded-[24px] lg:w-[560px] h-[220px]">
+          <div class="inter">
+            <h1 class="font-[900] text-[40px] text-[#030712cc]">20% OFF</h1>
+            <h2 class="font-semibold text-[20px] text-[#030712cc]">on your next purchase</h2>
+            <p class="font-medium text-[18px] text-[#03071280]">use by January 2024</p>
+          </div>
+          <div>
+            <img src="/images/cupon-devider.png" alt="">
+          </div>
+          <div>
+            <h1 class="font-bold text-[32px] text-[#030712]">Couple 20</h1>
+            <h2 class="font-medium text-[20px] text-[#03071266]">Coupon Code</h2>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center items-center mb-[100px]">
+        <button class="btn bg-[#ffffff] border-[#1dd100] text-[20px] font-bold text-[#1dd100]">See All Offers</button>
+      </div>
+     </section>
+     <!-- End best offer section -->
 
-        
+     <section class="functional-section bg-[#f7f8f7]">
+      <!-- departing section -->
+      <div class="mt-[100px] text-center">
+        <h1 class="my-3 text-[40px] text-[#030712] font-bold">Sejuti Paribahan</h1>
+        <p class="my-5 inter font-normal lg:text-[18px] text-[#03071299] mx-auto lg:max-w-[690px]">Yes, you can run unit tests and view the results directly within the app. 
+          The integrated testing features allow for a streamlined .</p>
+      </div>
+      <div class="sejuti-paribahan bg-[#fff] h-[418px] rounded-[24px] flex items-center">
+          <!-- left part -->
+          <div class="lg:max-w-[800px] my-[30px] mx-[30px]">
+            <!-- bus logo -->
+              <div class="flex justify-between gap-5 ">
+                <div class="flex items-center gap-2 justify-between">
+                  <div>
+                    <img src="/images/bus-logo.png" alt="">
+                  </div>
+                  <div>
+                   <h1 class="text-[32px] font-bold text-[#030712]">Sejuti Paribahan</h1>
+                   <p class="text-[17px] font-normal text-[#03071299] inter">Coach-009-WEB ! AC_Business</p>
+                  </div>
+                </div>
+                <div>
+                 <a class="btn bg-[#1dd1001a] text-[#1dd100] inter text-[18px] font-medium h-[50px]">
+                 <img src="/images/seat-green.png" alt="" class="">40 Seats left</a>
+                </div>
+              </div>
+              <!-- departure time -->
+             <div class="my-[20px] p-[32px] bg-[#f7f8f7] rounded-[24px]">
+              <div>
+                <div class="flex justify-between border_b font-semibold">
+                  <h1 class="text-[#03071299] text-[18px]">Route</h1>
+                  <h1 class="text-[#030712] text-[18px]  ">Dhaka - Sylhet</h1>
+                </div> 
+                <div class="flex justify-between border_b font-semibold ">
+                  <h1 class="text-[#03071299] text-[18px]">Departure Time</h1>
+                  <h1 class="text-[#030712]">9:00 PM</h1>
+                </div> 
+                <div class="flex justify-between py-[15px] gap-3 inter font-medium text-[#030712cc]">
+                <button class="btn btn-active text-[16px]">Boarding Point - Laxmipur</button>
+                <button class="btn btn-active text-[16px]">Dropping Point - Bogura</button>
+                <button class="btn btn-active text-[16px]">Est. Time - 11 Hour</button>
+                </div> 
+              </div>
+             </div>
+          </div>
+          <!-- middle depart img -->
+          <div>
+          <img src="/images/info-devider.png" alt="">
+          </div>
+          <!-- seat price -->
+          <div class="max-w[135px] mx-auto grid grid-cols-1 text-center">
+          <img src="/images/fare.png" alt="" style="position:relative; left: 30%; top: 5%;">
+          <h1 class="font-bold text-[32px] text-[#030712]">550 Taka</h1>
+          <p class="font-semibold text-[24px] text-[#03071299]">Per Seat</p>
+          </div>
+      </div>
+      <!-- seat plan -->
+     </section>
     </main>
     <footer>
     </footer>

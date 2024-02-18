@@ -5,7 +5,9 @@ body{
 .inter{
     font-family: "Inter", sans-serif;
 }  
-header, main {
+header,
+.main-section,
+.sejuti-paribahan {
     margin: 0 auto;
     max-width: 1170px;
 } 
@@ -13,11 +15,20 @@ header, main {
     border: 1px solid rgba(29, 209, 0 , 0.40);
     border-radius: 12px;
 }
+.functional-section{
+    border-radius: 88px 88px 0px 0px;
+    border-top: 2px solid rgb(29, 209, 0);
+}.border_b{
+    border-bottom: 1px dashed rgba(3, 7, 18, 0.2);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 @media screen and (max-width:576px){
     .sm-device{
         max-width: 520px;
         margin: 0 auto;
     }
 }
+
 
  
