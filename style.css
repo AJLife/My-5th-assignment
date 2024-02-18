@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway+Dots&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Raleway", sans-serif;
+  }
+.inter{
+    font-family: "Inter", sans-serif;
+}  
+header, main {
+    margin: 0 auto;
+    max-width: 1170px;
+} 
+.bus{
+    border: 1px solid rgba(29, 209, 0 , 0.40);
+    border-radius: 12px;
+}
+@media screen and (max-width:576px){
+    .sm-device{
+        max-width: 520px;
+        margin: 0 auto;
+    }
+}
+
+ 
