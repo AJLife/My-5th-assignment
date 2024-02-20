@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header id="continue">
         <!-- Navbar Section Start -->
         <div class="navbar">
             <div class="navbar-start">
@@ -122,8 +122,9 @@
                   </div>
                 </div>
                 <div>
-                 <a class="btn bg-[#1dd1001a] text-[#1dd100] inter text-[18px] font-medium h-[50px]">
-                 <img src="/images/seat-green.png" alt="" class="">40 Seats left</a>
+                 <p class="btn bg-[#1dd1001a] text-[#1dd100] inter text-[18px] font-medium h-[50px]">
+                 <img src="/images/seat-green.png" alt="" class="">
+                 <span id="remainingSeats">40</span>Seat left </p>
                 </div>
               </div>
               <!-- departure time -->
@@ -157,25 +158,258 @@
           </div>
       </div>
       <!-- seat plan -->
-     </section>
-     <!-- <section class="modal-part bg-[#F7F8F8]">
-      <div class="max-w-[718px] mx-auto bg-white rounded-[16px]">
-      <label for="my_modal_6" class="btn">open modal</label>
-      <input type="checkbox" id="my_modal_6" class="modal-toggle" />
-      <div class="modal" role="dialog">
-      <div class="modal-box">
-       <h3 class="font-bold text-lg">Hello!</h3>
-       <p class="py-4">This modal works with a hidden checkbox!</p>
-       <div class="modal-action">
-      <label for="my_modal_6" class="btn">Close!</label>
+      <div class="sejuti-paribahan mt-[25px] bg-white rounded-[24px] lg:flex">
+        <!-- available seat -->
+        <div class="mb-[30px]">
+          <div class="p-[32px]">
+            <h1 class="border_b">Select Your Seat</h1>
+            <div class="flex justify-between inter font-medium border_b">
+              <div class="flex gap-1">
+                 <img src="/images/seat-gray.png" alt="" class="">
+                 <a class="text-[#03071280] text-[18px] ">Available</a>
+              </div>
+              <div class="flex gap-1">
+                 <img src="/images/seat-green-filled.png" alt="" class="">
+                 <a class="text-[#03071280] text-[18px] text-[#1dd100]">Selected</a>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-end pr-[32px]">
+            <img src="/images/Group 56.png" alt="">
+          </div>
+           <!-- seats -->
+          <div class="px-[32px]">
+            <!-- SET NUMBER: A -->
+              <div class="inter flex lg:gap-[90px] gap-1">
+                <div class="flex seat-plan lg:gap-[25px] gap-1">
+                  <h1 class="text-center pt-[5%] mt-[5%]">A</h1>
+                  <div id="a1">
+                    <p class="seat">A1</p>
+                    <p id="a2" class="seat">A2</p>
+                  </div>
+                </div>
+                <div class="flex lg:gap-[32px] gap-1 seat-plan">
+                  <p id="a3" class="seat">A3</p>
+                  <p id="a4" class="seat">A4</p>
+                </div>
+              </div>
+              <!-- SET NUMBER: B -->
+              <div class="inter flex lg:gap-[90px] gap-1">
+                <div class="flex seat-plan lg:gap-[25px] gap-1">
+                  <h1 class="text-center pt-[5%] mt-[5%]">B</h1>
+                  <p id="b1" class="seat">B1</p>
+                  <p id="b2" class="seat">B2</p>
+                </div>
+                <div class="flex lg:gap-[32px] gap-1 seat-plan">
+                  <p id="b3" class="seat">B3</p>
+                  <p id="b4" class="seat">B4</p>
+                </div>
+              </div>
+            <!-- SET NUMBER: C -->
+            <div class="inter flex lg:gap-[90px] gap-1">
+              <div class="flex seat-plan lg:gap-[25px] gap-1">
+                <h1 class="text-center pt-[5%] mt-[5%]">C</h1>
+                <p class="seat">C1</p>
+                <p class="seat">C2</p>
+              </div>
+              <div class="flex lg:gap-[32px] gap-1 seat-plan">
+                <p class="seat">C3</p>
+                <p class="seat">C4</p>
+              </div>
+            </div>
+            <!-- SET NUMBER: D -->
+            <div class="inter flex lg:gap-[90px] gap-1">
+              <div class="flex seat-plan lg:gap-[25px] gap-1">
+                <h1 class="text-center pt-[5%] mt-[5%]">D</h1>
+                <p class="seat">D1</p>
+                <p class="seat">D2</p>
+              </div>
+              <div class="flex lg:gap-[32px] gap-1 seat-plan">
+                <p class="seat">D3</p>
+                <p class="seat">D4</p>
+              </div>
+            </div>
+            <!-- SET NUMBER: E -->
+            <div class="inter flex lg:gap-[90px] gap-1">
+               <div class="flex seat-plan lg:gap-[25px] gap-1">
+                <h1 class="text-center pt-[5%] mt-[5%]">E</h1>
+                <p class="seat">E1</p>
+                <p class="seat">E2</p>
+              </div>
+              <div class="flex lg:gap-[32px] gap-1 seat-plan">
+                <p class="seat">E3</p>
+                <p class="seat">E4</p>
+              </div>
+            </div>
+            <!-- SET NUMBER: F -->
+            <div class="inter flex lg:gap-[90px] gap-1">
+              <div class="flex seat-plan lg:gap-[25px] gap-1">
+                <h1 class="text-center pt-[5%] mt-[5%]">F</h1>
+                <p class="seat">F1</p>
+                <p class="seat">F2</p>
+              </div>
+              <div class="flex lg:gap-[32px] gap-1 seat-plan">
+                <p class="seat">F3</p>
+                <p class="seat">F4</p>
+              </div>
+            </div>
+            <!-- SET NUMBER: G -->
+            <div class="inter flex lg:gap-[90px] gap-1">
+              <div class="flex seat-plan lg:gap-[25px] gap-1">
+                <h1 class="text-center pt-[5%] mt-[5%]">G</h1>
+                <p class="seat">G1</p>
+                <p class="seat">G2</p>
+              </div>
+              <div class="flex lg:gap-[32px] gap-1 seat-plan">
+                <p class="seat">G3</p>
+                <p class="seat">G4</p>
+              </div>
+            </div>
+            <!-- SET NUMBER: H -->
+            <div class="inter flex lg:gap-[90px] gap-1">
+              <div class="flex seat-plan lg:gap-[25px] gap-1">
+                <h1 class="text-center pt-[5%] mt-[5%]">H</h1>
+                <p class="seat">H1</p>
+                <p class="seat">H2</p>
+              </div>
+              <div class="flex lg:gap-[32px] gap-1 seat-plan">
+                <p class="seat">H3</p>
+                <p class="seat">H4</p>
+              </div>
+            </div>
+            <!-- SET NUMBER: I -->
+            <div class="inter flex lg:gap-[90px] gap-1">
+              <div class="flex seat-plan lg:gap-[25px] gap-1">
+                <h1 class="text-center pt-[5%] mt-[5%]">I</h1>
+                <p class="seat">I1</p>
+                <p class="seat">I2</p>
+              </div>
+              <div class="flex lg:gap-[32px] gap-1 seat-plan">
+                <p class="seat">I3</p>
+                <p class="seat">I4</p>
+              </div>
+            </div>
+            <!-- SET NUMBER: J -->
+            <div class="inter flex lg:gap-[90px] gap-1">
+              <div class="flex seat-plan lg:gap-[25px] gap-1">
+                <h1 class="text-center pt-[5%] mt-[5%]">J</h1>
+                <p id="j1" class="seat">J1</p>
+                <p id="j2" class="seat">J2</p>
+              </div>
+              <div class="flex lg:gap-[32px] gap-1 seat-plan">
+                <p id="j3" class="seat">J3</p>
+                <p id="j4" class="seat">J4</p>
+              </div>
             </div>
           </div>
         </div>
+        <!-- calculate seat price-->
+        <div class="p-[32px]  border-l-2 border-dotted border-[#0307124D]">
+          <h1 class="border_b">Select Your Seat</h1>
+         <div class="bg-[#F7F8F8] w-[400px] rounded-[12px]  mt-[18px] p-[25px]">
+            <div class="flex justify-between gap-5 inter  border_b">
+              <h1>Seat <span id="seat">0</span></h1>    
+              <h1 class="">Class</h1>
+              <h1 class="">Price</h1>
+            </div>
+            <div class="inter  border_b" >
+              <div class="flex justify-between gap-5 py-2" >
+                <h1 class=""><span id="selectedSeat"></span></h1>
+                <h1>Economy all<span id="classOfSeat"></h1>
+                <h1 class=""><span id="ticketPrice"></span></h1>
+              </div>
+              <div class="flex justify-between gap-5 py-2">
+                <h1><span id="selectedSeat"></span></h1>
+                <h1><span id="selectedSeat"></span></h1>
+                <h1 class=""><span id="ticketPrice"></span></h1>
+              </div>
+              <div class="flex justify-between gap-5 py-2">
+                <h1><span id="selectedSeat"></span></h1>
+                <h1></h1>
+                <h1 class=""><span id="ticketPrice"></span></h1>
+              </div>
+              <div class="flex justify-between gap-5 py-2">
+                <h1></h1>
+                <h1></h1>
+                <h1 class=""><span id="ticketPrice"></span></h1>
+              </div>
+            </div>
+             <div class="flex justify-between gap-5 inter border_b text-[#030712] font-medium text-[14px]">
+            <h1 class="">Total Price</h1>
+            <h1 class="">BDT <span id="totalAmount"></span> </h1>
+            </div>
+            <div class="mt-[20px]">
+            <div class="flex items-center gap-2">
+              <input type="text" class="input w-[370px] absolute" placeholder="Have any coupon?"/>
+              <button class="btn relative left-[80%] bg-[#1DD100] w-[90px] h-[36px] rounded-[12px] inter font-semibold text-[#fff] test-[14px]">Apply</button>
+            </div>
+            </div>
+            <div class="flex justify-between gap-5 inter py-3 text-[#030712] font-medium text-[14px]">
+              <h1 class="">Grand Total</h1>
+              <h1 class="">BDT 1100</h1>
+            </div>
+         </div>
+         <div class="form-control w-[400px] inter mt-[20px]">
+           <div>
+            <div class="label">
+              <span class="label-text text-[#030712] text-[16px]">Passenger Name*</span>
+             </div>
+             <input type="text" placeholder="Enter your name" class="w-full input input-bordered text-[#03071266] font-normal text-[16px]"/>
+           </div>
+           <div class="py-2">
+            <div class="label">
+              <span class="label-text text-[#030712] text-[16px]">Phone Number*</span>
+             </div>
+             <input type="tel" placeholder="Enter your phone number" class="w-full input input-bordered text-[#03071266] font-normal text-[16px]"/>
+           </div>
+           <div class="pt-2">
+            <div class="label">
+              <span class="label-text text-[#030712] text-[16px]">Email ID</span>
+             </div>
+             <input type="email" placeholder="Enter your email" class="w-full input input-bordered text-[#03071266] font-normal text-[16px]"/>
+           </div>
+           <div class="py-[32px]">
+            <button id="openModalBtn" class="btn bg-[#1dd100] text-white w-full text-[20px] font-extrabold">Next</button>
+           </div>
+           <div class="underline flex justify-between inter text-[16px] font-normal">
+            <a href="">Terms and Conditions</a>
+            <a href="">Cancellation Policy</a>
+           </div>
+        </div>
+        <!-- clickable section -->
+        <h2>Bus Seat Selection</h2>
+            <div id="seats">
+        <!-- Create seat buttons -->
+            </div>
+
+          <div>
+          <p>Selected Seat:<span id="selectedSeat" class="selectedSeats"></span></p>
+          <p>Remaining Seats:<span id="remainingSeats">40</span></p>
+          <p>Total Amount: <span id="totalAmount"></span></p>
+          <p>Total Amount: <span id="ticketPrice"></span></p>
+          </div>
+          <div>
+            <p>Selected Seat:<span id="selectedSeat"></span></p>
+            <p>Selected Seat:<span id="ticketPrice"></span></p>
+            <p>Total Amount: <span id="totalAmount"></span></p>
+          </div>
+        </div>
       </div>
-  </section> -->
+      <!-- modal part -->
+     <div id="modal" class="sejuti-paribahan my-[100px]  rounded-[12px]">
+      <div class="rounded-[12px] modal-content max-w-[720px] bg-[#ffffff] mx-auto border-2 border-dashed text-center">
+        <img src="/images/success.png" alt="Modal Image" class="py-3 max-w-[70px] mx-auto">
+        <h2 class="py-3 font-bold text-[24px] text-[#27AE60] font-roboto">Success</h2>
+        <p class="py-3 font-medium text-[20px] text-[#4A4A4A]">Thank you for Booking Our Bus Seats. <br> We are working hard to find the best service and deals for you.</p>
+        <p class="py-3 font-[300] text-[20px] text-[#4A4A4A]">Shortly you will find a confirmation in your email..</p>
+        <a href="#continue" class="continue btn my-[20px]  bg-[#27AE60] rounded-[32px] w-[355px] h-[50px] font-semibold text-white text-[20px]">Continue</a>
+      </div>
+     </div>
+     </section>
+     
     </main>
     <!-- end main section -->
-    <footer class=" py-8 mt-[100px] bg-[#030712] lg:text-start text-center">
+    <footer class="py-8 mt-[100px] bg-[#030712] lg:text-start text-center">
        <div class="sejuti-paribahan lg:flex justify-center  lg:justify-between items-center lg:gap-5 border_f">
           <div>
             <h6 class="text-[36px] font-extrabold py-2 text-[#ffff]">S-Ticket</h6>  
