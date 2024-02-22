@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <header id="continue">
@@ -51,10 +49,10 @@
           <div class="hero-overlay bg-opacity-50 rounded-[32px]"></div>
             <div class="hero-content text-center text-neutral-content">
               <div>
-                <h1 class="mb-4 lg:text-[64px] text-[36px] font-extrabold ">End-to-End Travel with <br> <span class="text-[#1dd100]">Jannat Paribahan</span></h1>
-                <p class="mb-4 text-center inter font-normal lg:text-[18px] text-[12px] text-[#fff]">Yes, you can run unit tests and view the results 
-                    directly within the app.<br>
-                    The integrated testing features allow for a streamlined</p>
+                <h1 class="mb-4 lg:text-[64px] text-[36px] font-extrabold ">End-to-End Travel with <br> <span class="text-[#1dd100]">Sejuti Paribahan</span></h1>
+                <p class="mb-4 text-center inter font-normal lg:text-[18px] text-[12px] text-[#fff]">Sejuti Parihan" offers online bus ticketing services for convenient and 
+                  <br>
+                  hassle-free travel experiences. Book seats easily and enjoy comfortable journeys</p>
                 <a href="#select-your-seats" class="btn text-[20px] h-[60px] text-center font-bold border-0 bg-[#13d100] text-[black]">Buy Tickets</a>
               </div>
             </div>
@@ -63,7 +61,7 @@
     </header>
     <main class="">
       <!-- Start best offer section -->       
-     <section class="main-section">
+     <section class="main-section ">
       <h1 class="text-center text-[#030712] mt-[110px] text-[40px] font-bold">Best offers for you</h1>
       <div class="lg:flex grid-cols-1 gap-5 lg:space-y-0 space-y-2 my-[50px]" >
         <div class="flex bg-[#ffbf0f] items-center justify-evenly rounded-[24px] lg:w-[560px] h-[220px]">
@@ -100,12 +98,11 @@
       </div>
      </section>
      <!-- End best offer section -->
-     <section class="functional-section bg-[#f7f8f7]" id="select-your-seats">
+     <section class="functional-section bg-[#f7f8f7] " id="select-your-seats">
       <!-- departing section -->
       <div class="mt-[100px] text-center">
         <h1 class="my-3 text-[40px] text-[#030712] font-bold">Sejuti Paribahan</h1>
-        <p class="my-5 inter font-normal lg:text-[18px] text-[#03071299] mx-auto lg:max-w-[690px]">Yes, you can run unit tests and view the results directly within the app. 
-          The integrated testing features allow for a streamlined .</p>
+        <p class="my-5 inter font-normal lg:text-[18px] text-[#03071299] mx-auto lg:max-w-[690px]">Sejuti Parihan" promises swift travel times, optimizing <br> your journey with punctuality and convenience, ensuring a hassle-free online bus ticket booking experience. .</p>
       </div>
       <div class="sejuti-paribahan bg-[#fff] lg:h-[418px] rounded-[24px] lg:flex items-center">
           <!-- left part -->
@@ -124,7 +121,7 @@
                 <div>
                  <p class="btn bg-[#1dd1001a] text-[#1dd100] inter text-[18px] font-medium h-[50px]">
                  <img src="/images/seat-green.png" alt="" class="">
-                 <span id="remainingSeats">40</span>Seat left </p>
+                 <span id="remaining-seats">40</span>Seat left </p>
                 </div>
               </div>
               <!-- departure time -->
@@ -163,193 +160,190 @@
         <div class="mb-[30px]">
           <div class="p-[32px]">
             <h1 class="border_b">Select Your Seat</h1>
-            <div class="flex justify-between inter font-medium border_b">
+            <div class="flex justify-between  inter font-medium border_b ">
               <div class="flex gap-1">
                  <img src="/images/seat-gray.png" alt="" class="">
                  <a class="text-[#03071280] text-[18px] ">Available</a>
               </div>
-              <div class="flex gap-1">
+              <div class="flex gap-1 lg:pr-[25px] pr-[15%]">
                  <img src="/images/seat-green-filled.png" alt="" class="">
                  <a class="text-[#03071280] text-[18px] text-[#1dd100]">Selected</a>
               </div>
             </div>
           </div>
-          <div class="flex justify-end pr-[32px]">
-            <img src="/images/Group 56.png" alt="">
+          <div class="flex justify-end lg:pr-[35px] pr-[8%]">
+            <img src="/images/Group 56.png" alt="" class="w-[90px]  h-[53px] lg:w-[110px]">
           </div>
            <!-- seats -->
-          <div class="px-[32px]">
+          <div class="px-[32px] seatAll inter grid grid-cols-2 lg:gap-[35px] gap-1">
             <!-- SET NUMBER: A -->
-              <div class="inter flex lg:gap-[90px] gap-1">
                 <div class="flex seat-plan lg:gap-[25px] gap-1">
-                  <h1 class="text-center pt-[5%] mt-[5%]">A</h1>
-                  <div id="a1">
-                    <p class="seat">A1</p>
-                    <p id="a2" class="seat">A2</p>
-                  </div>
+                    <h1 class="text-center pt-[5%] mt-[5%] ">A</h1>
+                    <p class="seat click-card"><span>A1</span></p>
+                    <p id="a2" class="seat click-card">A2</p>
                 </div>
                 <div class="flex lg:gap-[32px] gap-1 seat-plan">
-                  <p id="a3" class="seat">A3</p>
-                  <p id="a4" class="seat">A4</p>
+                  <h1></h1>
+                  <p id="a3" class="seat click-card"><span>A3</span></p>
+                  <p id="a2" class="seat click-card">A4</p>
                 </div>
-              </div>
+              
               <!-- SET NUMBER: B -->
-              <div class="inter flex lg:gap-[90px] gap-1">
                 <div class="flex seat-plan lg:gap-[25px] gap-1">
-                  <h1 class="text-center pt-[5%] mt-[5%]">B</h1>
-                  <p id="b1" class="seat">B1</p>
-                  <p id="b2" class="seat">B2</p>
+                  <h1 class="text-center pt-[5%] mt-[5%] ">B</h1>
+                  <p id="b1" class="seat click-card"><span>B1</span></p>
+                  <p id="a2" class="seat click-card">B2</p>
                 </div>
                 <div class="flex lg:gap-[32px] gap-1 seat-plan">
-                  <p id="b3" class="seat">B3</p>
-                  <p id="b4" class="seat">B4</p>
+                  <h1></h1>
+                  <p id="b3" class="seat click-card"><span>B3</span></p>
+                  <p id="a2" class="seat click-card">B4</p>
                 </div>
-              </div>
             <!-- SET NUMBER: C -->
-            <div class="inter flex lg:gap-[90px] gap-1">
               <div class="flex seat-plan lg:gap-[25px] gap-1">
                 <h1 class="text-center pt-[5%] mt-[5%]">C</h1>
-                <p class="seat">C1</p>
-                <p class="seat">C2</p>
+                <p class="seat click-card">C1</p>
+                <p id="a2" class="seat click-card">C2</p>
               </div>
               <div class="flex lg:gap-[32px] gap-1 seat-plan">
-                <p class="seat">C3</p>
-                <p class="seat">C4</p>
+                <h1></h1>
+                <p class="seat click-card">C3</p>
+                <p id="a2" class="seat click-card">C4</p>
               </div>
-            </div>
+            
             <!-- SET NUMBER: D -->
-            <div class="inter flex lg:gap-[90px] gap-1">
+            
               <div class="flex seat-plan lg:gap-[25px] gap-1">
                 <h1 class="text-center pt-[5%] mt-[5%]">D</h1>
-                <p class="seat">D1</p>
-                <p class="seat">D2</p>
+                <p class="seat click-card">D1</p>
+                <p id="a2" class="seat click-card">D2</p>
               </div>
               <div class="flex lg:gap-[32px] gap-1 seat-plan">
-                <p class="seat">D3</p>
-                <p class="seat">D4</p>
+                <h1></h1>
+                <p class="seat click-card">D3</p>
+                <p id="a2" class="seat click-card">D4</p>
               </div>
-            </div>
+            
             <!-- SET NUMBER: E -->
-            <div class="inter flex lg:gap-[90px] gap-1">
+           
                <div class="flex seat-plan lg:gap-[25px] gap-1">
                 <h1 class="text-center pt-[5%] mt-[5%]">E</h1>
-                <p class="seat">E1</p>
-                <p class="seat">E2</p>
+                <p class="seat click-card">E1</p>
+                <p id="a2" class="seat click-card">E2</p>
               </div>
               <div class="flex lg:gap-[32px] gap-1 seat-plan">
-                <p class="seat">E3</p>
-                <p class="seat">E4</p>
+                <h1></h1>
+                <p class="seat click-card">E3</p>
+                <p id="a2" class="seat click-card">E4</p>
               </div>
-            </div>
+            
             <!-- SET NUMBER: F -->
-            <div class="inter flex lg:gap-[90px] gap-1">
+            
               <div class="flex seat-plan lg:gap-[25px] gap-1">
                 <h1 class="text-center pt-[5%] mt-[5%]">F</h1>
-                <p class="seat">F1</p>
-                <p class="seat">F2</p>
+                <p class="seat click-card">F1</p>
+                <p id="a2" class="seat click-card">F2</p>
               </div>
               <div class="flex lg:gap-[32px] gap-1 seat-plan">
-                <p class="seat">F3</p>
-                <p class="seat">F4</p>
+                <h1></h1>
+                <p class="seat click-card">F3</p>
+                <p id="a2" class="seat click-card">F4</p>
               </div>
-            </div>
+          
             <!-- SET NUMBER: G -->
-            <div class="inter flex lg:gap-[90px] gap-1">
+            
               <div class="flex seat-plan lg:gap-[25px] gap-1">
                 <h1 class="text-center pt-[5%] mt-[5%]">G</h1>
-                <p class="seat">G1</p>
-                <p class="seat">G2</p>
+                <p class="seat click-card">G1</p>
+                <p id="a2" class="seat click-card">G2</p>
               </div>
               <div class="flex lg:gap-[32px] gap-1 seat-plan">
-                <p class="seat">G3</p>
-                <p class="seat">G4</p>
+                <h1></h1>
+                <p class="seat click-card">G3</p>
+                <p id="a2" class="seat click-card">G4</p>
               </div>
-            </div>
+          
+
             <!-- SET NUMBER: H -->
-            <div class="inter flex lg:gap-[90px] gap-1">
+            
               <div class="flex seat-plan lg:gap-[25px] gap-1">
                 <h1 class="text-center pt-[5%] mt-[5%]">H</h1>
-                <p class="seat">H1</p>
-                <p class="seat">H2</p>
+                <p class="seat click-card">H1</p>
+                <p id="a2" class="seat click-card">H2</p>
               </div>
               <div class="flex lg:gap-[32px] gap-1 seat-plan">
-                <p class="seat">H3</p>
-                <p class="seat">H4</p>
+                <h1></h1>
+                <p class="seat click-card">H3</p>
+                <p id="a2" class="seat click-card">H4</p>
               </div>
-            </div>
+           
             <!-- SET NUMBER: I -->
-            <div class="inter flex lg:gap-[90px] gap-1">
+            
               <div class="flex seat-plan lg:gap-[25px] gap-1">
-                <h1 class="text-center pt-[5%] mt-[5%]">I</h1>
-                <p class="seat">I1</p>
-                <p class="seat">I2</p>
+                <h1 class="text-center pt-[5%] mt-[5%] ml-[5px]"> I </h1>
+                <p class="seat click-card">I1</p>
+                <p id="a2" class="seat click-card">I2</p>
               </div>
               <div class="flex lg:gap-[32px] gap-1 seat-plan">
-                <p class="seat">I3</p>
-                <p class="seat">I4</p>
+                <h1></h1>
+                <p class="seat click-card">I3</p>
+                <p id="a2" class="seat click-card">I4</p>
               </div>
-            </div>
+           
             <!-- SET NUMBER: J -->
-            <div class="inter flex lg:gap-[90px] gap-1">
+           
               <div class="flex seat-plan lg:gap-[25px] gap-1">
                 <h1 class="text-center pt-[5%] mt-[5%]">J</h1>
-                <p id="j1" class="seat">J1</p>
-                <p id="j2" class="seat">J2</p>
+                <p id="j1" class="seat click-card">J1</p>
+                <p id="a2" class="seat click-card">J2</p>
               </div>
               <div class="flex lg:gap-[32px] gap-1 seat-plan">
-                <p id="j3" class="seat">J3</p>
-                <p id="j4" class="seat">J4</p>
+                <h1></h1>
+                <p id="j3" class="seat click-card">J3</p>
+                <p id="a2" class="seat click-card">J4</p>
               </div>
-            </div>
           </div>
         </div>
         <!-- calculate seat price-->
-        <div class="p-[32px]  border-l-2 border-dotted border-[#0307124D]">
+        <div class="p-[32px] max-w-[400px] lg:mx-auto lg:border-l-2 lg:border-dotted border-[#0307124D]">
           <h1 class="border_b">Select Your Seat</h1>
-         <div class="bg-[#F7F8F8] w-[400px] rounded-[12px]  mt-[18px] p-[25px]">
+         <div class="bg-[#F7F8F8]  rounded-[12px] w-full mt-[18px] p-[25px]">
             <div class="flex justify-between gap-5 inter  border_b">
-              <h1>Seat <span id="seat">0</span></h1>    
+              <h1>Seat <span id="seat-count">0</span></h1>    
               <h1 class="">Class</h1>
               <h1 class="">Price</h1>
             </div>
-            <div class="inter  border_b" >
-              <div class="flex justify-between gap-5 py-2" >
-                <h1 class=""><span id="selectedSeat"></span></h1>
-                <h1>Economy all<span id="classOfSeat"></h1>
-                <h1 class=""><span id="ticketPrice"></span></h1>
-              </div>
-              <div class="flex justify-between gap-5 py-2">
-                <h1><span id="selectedSeat"></span></h1>
-                <h1><span id="selectedSeat"></span></h1>
-                <h1 class=""><span id="ticketPrice"></span></h1>
-              </div>
-              <div class="flex justify-between gap-5 py-2">
-                <h1><span id="selectedSeat"></span></h1>
-                <h1></h1>
-                <h1 class=""><span id="ticketPrice"></span></h1>
-              </div>
-              <div class="flex justify-between gap-5 py-2">
-                <h1></h1>
-                <h1></h1>
-                <h1 class=""><span id="ticketPrice"></span></h1>
-              </div>
+            <div id="selection-details" class="inter  border_b flex justify-between items-center" >
+                 <ul id="select_seat_details" class="select_seat_details " >
+                 </ul>
+                 <ul id="select_class_details" class="select_price_details">
+                 </ul>
+                 <ul id="select_price_details" class="select_price_details">
+                 </ul>
             </div>
+
+            <!-- total price count -->
              <div class="flex justify-between gap-5 inter border_b text-[#030712] font-medium text-[14px]">
-            <h1 class="">Total Price</h1>
-            <h1 class="">BDT <span id="totalAmount"></span> </h1>
+              <h1 class="">Total Price</h1>
+              <h1 class="">BDT <span id="total-cost"> 0</span></h1>
             </div>
+
+            <!-- coupon apply btn -->
             <div class="mt-[20px]">
-            <div class="flex items-center gap-2">
-              <input type="text" class="input w-[370px] absolute" placeholder="Have any coupon?"/>
-              <button class="btn relative left-[80%] bg-[#1DD100] w-[90px] h-[36px] rounded-[12px] inter font-semibold text-[#fff] test-[14px]">Apply</button>
+            <div class="join max-w-[380px] mx-auto " >
+              <input id="coupon-code" type="text" class="input w-full input-bordered join-item" placeholder="Have any coupon?"/>
+              <button onclick="updateGrandTotal('apply-btn')" class="btn join-item bg-[#1dd100] rounded-[12px] inter font-semibold text-[#fff] test-[14px]">Apply</button>
             </div>
             </div>
+
+            <!-- discount amount -->
             <div class="flex justify-between gap-5 inter py-3 text-[#030712] font-medium text-[14px]">
               <h1 class="">Grand Total</h1>
-              <h1 class="">BDT 1100</h1>
+              <h3>BDT <span id="grand-total"> 0</span></h3>
             </div>
          </div>
-         <div class="form-control w-[400px] inter mt-[20px]">
+
+         <div class="form-control w-full inter mt-[20px]">
            <div>
             <div class="label">
               <span class="label-text text-[#030712] text-[16px]">Passenger Name*</span>
@@ -369,40 +363,24 @@
              <input type="email" placeholder="Enter your email" class="w-full input input-bordered text-[#03071266] font-normal text-[16px]"/>
            </div>
            <div class="py-[32px]">
-            <button id="openModalBtn" class="btn bg-[#1dd100] text-white w-full text-[20px] font-extrabold">Next</button>
+            <button onclick="openModal()" id="open-modal-btn" class="btn bg-[#1dd100] text-white w-full text-[20px] font-extrabold">Next</button>
            </div>
            <div class="underline flex justify-between inter text-[16px] font-normal">
             <a href="">Terms and Conditions</a>
             <a href="">Cancellation Policy</a>
            </div>
-        </div>
-        <!-- clickable section -->
-        <h2>Bus Seat Selection</h2>
-            <div id="seats">
-        <!-- Create seat buttons -->
-            </div>
 
-          <div>
-          <p>Selected Seat:<span id="selectedSeat" class="selectedSeats"></span></p>
-          <p>Remaining Seats:<span id="remainingSeats">40</span></p>
-          <p>Total Amount: <span id="totalAmount"></span></p>
-          <p>Total Amount: <span id="ticketPrice"></span></p>
-          </div>
-          <div>
-            <p>Selected Seat:<span id="selectedSeat"></span></p>
-            <p>Selected Seat:<span id="ticketPrice"></span></p>
-            <p>Total Amount: <span id="totalAmount"></span></p>
-          </div>
+        </div>        
         </div>
       </div>
       <!-- modal part -->
-     <div id="modal" class="sejuti-paribahan my-[100px]  rounded-[12px]">
-      <div class="rounded-[12px] modal-content max-w-[720px] bg-[#ffffff] mx-auto border-2 border-dashed text-center">
+     <div id="modal"  class="openModalBtn sejuti-paribahan py-[100px] rounded-[12px] roboto">
+      <div class="rounded-[12px] modal-content lg:max-w-[720px] max-w-[500px] bg-[#ffffff] mx-auto border-2 border-dashed text-center">
         <img src="/images/success.png" alt="Modal Image" class="py-3 max-w-[70px] mx-auto">
-        <h2 class="py-3 font-bold text-[24px] text-[#27AE60] font-roboto">Success</h2>
+        <h2 class="py-3 text-[24px] text-[#27AE60] font-bold">Success</h2>
         <p class="py-3 font-medium text-[20px] text-[#4A4A4A]">Thank you for Booking Our Bus Seats. <br> We are working hard to find the best service and deals for you.</p>
         <p class="py-3 font-[300] text-[20px] text-[#4A4A4A]">Shortly you will find a confirmation in your email..</p>
-        <a href="#continue" class="continue btn my-[20px]  bg-[#27AE60] rounded-[32px] w-[355px] h-[50px] font-semibold text-white text-[20px]">Continue</a>
+        <span onclick="closeModal()" class="continue btn my-[40px]  bg-[#27AE60] rounded-[32px] w-[355px] h-[50px] font-semibold text-white text-[20px]">Continue &uarr;  </span>
       </div>
      </div>
      </section>
